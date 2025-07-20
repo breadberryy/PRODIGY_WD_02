@@ -1,6 +1,6 @@
-PRODIGY_WD_02
+# PRODIGY_WD_02
 
-Internship Project 2 – Responsive Landing Page
+## Internship Project 2 – Responsive Landing Page
 
 This is the second project of my Web Development Internship at "Prodigy InfoTech".
 
