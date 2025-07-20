@@ -9,11 +9,16 @@ This is the second project of my Web Development Internship at "Prodigy InfoTech
 - CSS
 - JavaScript
 
+---
+
 ### Features:
 - Responsive design
 - Mobile navigation toggle
 - Contact form with smooth "Thank You" screen
 - Clean, modern layout
+
+---
+
 
 ### Project Files:
 - index.html → Website structure
