@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Responsive Site</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MySite</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+    </nav>
+  </header>
+
+  <section id="home" class="cover">
+    <h1>Welcome to My Site</h1>
+    <p>Responsive Landing Page</p>
+  </section>
+
+<section id="about">
+  <h2>About Us</h2>
+  <p>
+    Welcome to <strong>MySite</strong> — a space where creativity meets functionality and code meets confidence. This project was created as part of an internship at <strong>Prodigy Infotech Pvt. Ltd.</strong> with the goal of learning and applying real-world front-end development skills.
+  </p>
+  <p>
+    During the development of this website, I explored the fundamentals of responsive design, semantic HTML, elegant CSS layouting, and interactive JavaScript. Every section on this site — from the soft gradients on the cover to the sweet form of styling — reflects my personal aesthetic.
+  </p>
+  <div> </div>
+  <p>
+    The website is not just a portfolio project; it's a digital canvas that balances beauty and structure. It adapts seamlessly to mobile and desktop views.
+  </p>
+  <p>
+    I'm incredibly grateful to <strong>Prodigy Infotech</strong> for providing the opportunity to transform code into confidence, and ideas into UI. With this project, I aimed to create an experience that feels personal and polished.
+  </p>
+  <p>
+    Thank you for visiting, and I hope you find this space as warm and welcoming as it was to build. 💗
+  </p>
+</section>
+
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="card-container">
+      <div class="card">UI/UX Design</div>
+      <div class="card">Web Development</div>
+      <div class="card">Content Strategy</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <textarea placeholder="Your message..." required></textarea>
+      <button type="submit">Send 💌</button>
+    </form>
+  </section>
+
+  <section id="thankYouSection" class="thank-you-section">
+    <h2>Thank You for Contacting Us</h2>
+    <p>We’ve received your message and will get back to you shortly.</p>
+    <button onclick="goBackToForm()">Send Another</button>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 MySite — Made with ❤️ & caffeine</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
