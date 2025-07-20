@@ -4,18 +4,18 @@
 
 This is the second project of my Web Development Internship at "Prodigy InfoTech".
 
-Tech Stack:
+### Tech Stack:
 - HTML
 - CSS
 - JavaScript
 
-Features:
+### Features:
 - Responsive design
 - Mobile navigation toggle
 - Contact form with smooth "Thank You" screen
 - Clean, modern layout
 
-Project Files:
-index.html → Website structure
-style.css → Layout and styling
-app.js → Nav toggle + contact form logic
+### Project Files:
+- index.html → Website structure
+- style.css → Layout and styling
+- app.js → Nav toggle + contact form logic
